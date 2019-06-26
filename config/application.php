@@ -3,15 +3,15 @@
 // the default, and should be changed as needed.
 return array(
 	'ServerAddress'				=> 'localhost',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
-	'BaseURI'					=> 'fluxcp',						// The base URI is the base web root on which your application lies.
+	'BaseURI'					=> '',						// The base URI is the base web root on which your application lies.
 	'InstallerPassword'			=> 'secretpassword',		// Installer/updater password.
 	'RequireOwnership'			=> true,					// Require the executing user to be owner of the FLUX_ROOT/data/ directory tree? (Better for security)
 															// WARNING: This will be mostly IGNORED on non-POSIX-compliant OSes (e.g. Windows).
 	'DefaultLoginGroup'			=> null,
 	'DefaultCharMapServer'		=> null,
 	'DefaultLanguage'			=> 'en_us',					// Specify the default control panel language (see FLUX_ROOT/lang/ directory for available languages.)
-	'SiteTitle'					=> 'Flux Control Panel',	// This value is only used if the theme decides to use it.
-	'ThemeName'					=> array('default', 'bootstrap'), // Names of the themes you would like list for use in the footer. Themes are in FLUX_ROOT/themes.
+	'SiteTitle'					=> 'Infinite Ownage',	// This value is only used if the theme decides to use it.
+	'ThemeName'					=> array('hurtFreeV1','default', 'bootstrap'), // Names of the themes you would like list for use in the footer. Themes are in FLUX_ROOT/themes.
 	'ScriptTimeLimit'			=> 0,						// Script execution time limit. Specifies (in seconds) how long a page should run before timing out. (0 means forever)
 	'MissingEmblemBMP'			=> 'empty.bmp',				//
 	'ItemIconNameFormat'		=> '%d.png',				// The filename format for item icons (defaults to {itemid}.png).
@@ -40,9 +40,9 @@ return array(
 	'MaxUsernameLength'			=> 23,						// Maximum username length.
 	'MinPasswordLength'			=> 8,						// Minimum password length.
 	'MaxPasswordLength'			=> 31,						// Maximum password length.
-	'PasswordMinUpper'			=> 1,						// Number of upper-case letters to require in passwords.
-	'PasswordMinLower'			=> 1,						// Number of lower-case letters to require in passwords.
-	'PasswordMinNumber'			=> 1,						// Number of numbers to require in passwords.
+	'PasswordMinUpper'			=> 0,						// Number of upper-case letters to require in passwords.
+	'PasswordMinLower'			=> 0,						// Number of lower-case letters to require in passwords.
+	'PasswordMinNumber'			=> 0,						// Number of numbers to require in passwords.
 	'PasswordMinSymbol'			=> 0,						// Number of symbols to require in passwords.
 	'GMMinPasswordLength'		=> 8,						// Minimum password length for GM accounts.
 	'GMPasswordMinUpper'		=> 1,						// Number of upper-case letters to require in passwords for GM accounts.
@@ -55,9 +55,9 @@ return array(
 	'RequireEmailConfirm'		=> false,					// Require e-mail confirmation during registration.
 	'RequireChangeConfirm'		=> false,					// Require confirmation when changing e-mail addresses.
 	'EmailConfirmExpire'		=> 48,						// E-mail confirmations expire hours. Unconfirmed accounts will expire after this period of time.
-	'PincodeEnabled'		=> true,					// Whether or not the pincode system is enabled in your server. (Check your char_athena.conf file. Enabled by default.)
+	'PincodeEnabled'		=> false,					// Whether or not the pincode system is enabled in your server. (Check your char_athena.conf file. Enabled by default.)
 	'MailerFromAddress'			=> 'noreply@localhost',		// The e-mail address displayed in the From field.
-	'MailerFromName'			=> 'MailerName',			// The name displayed with the From e-mail address.
+	'MailerFromName'			=> 'ioRO',			// The name displayed with the From e-mail address.
 	'MailerUseSMTP'				=> false,					// Whether or not to use a separate SMTP server for sending mail.
 	'MailerSMTPUseSSL'			=> false,					// Whether or not mailer should connect using SSL (yes for GMail).
 	'MailerSMTPUseTLS'			=> false,					// Same as above SSL setting, but for TLS.  This setting will override the SSL setting.
@@ -267,8 +267,8 @@ return array(
 			'MobDatabaseLabel'	=> array('module' => 'monster'),
 		),
 		'SocialLabel'		=> array(
-			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/<change_me>'),
-			'RateUsOnRMSLabel'		=> array('exturl' => '<link_to_RMS>'),
+			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/Ragnarok-Online-Infinite-Ownage-589752818179875/'),
+			'RateUsOnRMSLabel'		=> array('exturl' => ''),
 		),
 		'Service Desk'	=> array(
 			'ServiceDeskLabel'	=> array('module' => 'servicedesk', 'action' => 'staffindex'),
