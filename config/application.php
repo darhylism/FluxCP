@@ -312,8 +312,8 @@ return array(
 			'cart'			=> 'Go to Shopping Cart',
 			'login'			=> 'Login',
 			'create'		=> 'Register',
-			'resetpass'		=> 'Reset Password',
-			'resend'		=> 'Resend E-mail Confirmation'
+			'resetpass'		=> 'Reset Password'
+		//	'resend'		=> 'Resend E-mail Confirmation'
 		),
 		'guild'			=> array(
 			'index'			=> 'List Guilds',
