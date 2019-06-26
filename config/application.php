@@ -270,6 +270,9 @@ return array(
 			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/Ragnarok-Online-Infinite-Ownage-589752818179875/'),
 			'RateUsOnRMSLabel'		=> array('exturl' => ''),
 		),
+		'Vote For Points' => array(
+			'VotingLabel' => array('module' => 'voteforpoints'),
+		),
 		'Service Desk'	=> array(
 			'ServiceDeskLabel'	=> array('module' => 'servicedesk', 'action' => 'staffindex'),
 		),
