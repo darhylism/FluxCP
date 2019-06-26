@@ -8,7 +8,7 @@ Email: mandark022@yahoo.com
 return array(
 	'modules' => array(
 		'voteforpoints' => array(
-            'index' 	=> AccountLevel::NORMAL,
+            'index' 	=> AccountLevel::ANYONE,
             'vote' 		=> AccountLevel::NORMAL,
             'image' 	=> AccountLevel::NORMAL,
             'add' 		=> AccountLevel::ADMIN,

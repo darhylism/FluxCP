@@ -231,13 +231,19 @@ return array(
 	'MenuItems'		=> array(
 		'MainMenuLabel'		=> array(
 			'HomeLabel'			=> array('module' => 'main'),
-			//'ForumLabel'		=> array('exturl' => 'http://www.fluxro.com/community'),	// External forum link
+			'ForumLabel'		=> array('exturl' => 'http://infiniteownage.ro-game.net/forum/'),	// External forum link
 			//'ForumLabel'		=> array('module' => 'forums'), 						// Built-in forum link
 			'NewsLabel'			=> array('module' => 'news'),
 			// Sample items for pages function.
 			'DownloadsLabel'		=> array('module' => 'pages','action'=>'content&path=downloads'),
-			'RulesLabel'			=> array('module' => 'pages','action'=>'content&path=rules'),
+			//'RulesLabel'			=> array('module' => 'pages','action'=>'content&path=rules'),
 			// End sample items for pages function.
+		),
+		'DownloadsLabel'		=> array(
+			'DownlinksLabel'		=> array('module' => 'pages','action'=>'content&path=downloads'),
+		),
+		'ForumLabel'		=> array(
+			'FlinksLabel'		=> array('exturl' => 'http://infiniteownage.ro-game.net/forum/'),	// External forum link
 		),
 		'AccountLabel'		=> array(
 			'AccountCreateHeading'		=> array('module' => 'account', 'action' => 'create'),
@@ -269,9 +275,6 @@ return array(
 		'SocialLabel'		=> array(
 			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/Ragnarok-Online-Infinite-Ownage-589752818179875/'),
 			'RateUsOnRMSLabel'		=> array('exturl' => ''),
-		),
-		'Vote For Points' => array(
-			'VotingLabel' => array('module' => 'voteforpoints'),
 		),
 		'Service Desk'	=> array(
 			'ServiceDeskLabel'	=> array('module' => 'servicedesk', 'action' => 'staffindex'),
